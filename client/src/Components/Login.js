@@ -1,8 +1,11 @@
 import React from "react";
-import "./Login.css"
+import "./Login.css";
 function Login() {
   return (
-    <div class = "main">
+    <>
+    
+    <div class="main">
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       <form>
         <section class="container">
           <header>
@@ -16,33 +19,29 @@ function Login() {
               name="email"
               id="email"
               required
-              placeholder="youremail@gmail.com"
+              placeholder="📧"
               autoComplete="off"
             />
           </p>
           <p>
             <label for="password">Password</label>
             <br></br>
+            
             <input
               type="password"
               name="password"
               id="password"
               required
-              placeholder="*******"
-              autoComplete="off"
-            />
+              placeholder="&#128274;"
+              autoComplete="off"/>
           </p>
           <p>
-            <input
-              type="button"
-              name="button"
-              id="btn"
-              value="SUBMIT"
-            />
+            <input type="button" name="button" id="btn" value="Login" />
           </p>
         </section>
       </form>
     </div>
+    </>
   );
 }
 
