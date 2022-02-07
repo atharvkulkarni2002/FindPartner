@@ -8,8 +8,6 @@ function Login() {
           <header>
             <h1>Log In to ProjectPartner</h1>
           </header>
-          <hr></hr>
-          <hr></hr>
           <p>
             <label for="email">E-Mail</label>
             <br></br>
@@ -19,6 +17,7 @@ function Login() {
               id="email"
               required
               placeholder="youremail@gmail.com"
+              autoComplete="off"
             />
           </p>
           <p>
@@ -30,6 +29,15 @@ function Login() {
               id="password"
               required
               placeholder="*******"
+              autoComplete="off"
+            />
+          </p>
+          <p>
+            <input
+              type="button"
+              name="button"
+              id="btn"
+              value="SUBMIT"
             />
           </p>
         </section>
