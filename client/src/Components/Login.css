@@ -6,7 +6,7 @@
 
 .main h1{
     margin-bottom: 40px;
-    
+    font-size: 30px;
 }
 
 .main{
@@ -16,26 +16,27 @@
     justify-content: center;
     margin: 10% auto;
     border-radius:6%;
-    box-shadow: 2px 2px 4px 4px #5b819b;
+    box-shadow: 1px 1px 1px 1px #5b819b;
     color: #092e47;
-    font-size: larger;
     
+    background:transparent;
+    background-color: rgb(254, 255, 255);
 }
 
 .main::before{
-    background: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg")no-repeat center center/cover;
+    background: url("../pexels-johannes-plenio-1103970.jpg")no-repeat center center/cover;
     content: "";
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     z-index: -1;
-    opacity: 1;
+    opacity: 2;
 }
 .container{
     height: 335px;  
-    
+   
 }
 
 #btn {
@@ -58,7 +59,7 @@
   }
   
   .btn:hover {
-    background: #0c3652;
+    background: #134261;
     background-image: -webkit-linear-gradient(top, #0c3652, #2881b5);
     background-image: -moz-linear-gradient(top, #0c3652, #2881b5);
     background-image: -ms-linear-gradient(top, #0c3652, #2881b5);
