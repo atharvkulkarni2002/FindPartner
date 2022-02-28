@@ -1,4 +1,3 @@
-
 *{
     font-family: 'Roboto', sans-serif;
     
@@ -24,7 +23,7 @@
 }
 
 .main::before{
-    background: url("../pexels-johannes-plenio-1103970.jpg")no-repeat center center/cover;
+    background: url("D:/projectws/FindPartner/client/public/pexels-johannes-plenio-1103970.jpg")no-repeat center center/cover;
     content: "";
     position: absolute;
     width: 100%;
